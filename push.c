@@ -30,7 +30,7 @@ void m_push(stack_t **stack_p, unsigned int number)
 	}
 	else
 	{
-		if (!queue_node(stack_p, atoi(global.argument)))
+		if (!addqueue_node(stack_p, atoi(global.argument)))
 		{
 			exit(EXIT_FAILURE);
 		}

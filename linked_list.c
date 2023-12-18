@@ -10,7 +10,7 @@
  * Return: newly created node, if memory allocation fails, the function will
  * return NULL.
  */
-stack_t *addqueue_node(stack_t **stack_p,  int n)
+stack_t *addqueue_node(stack_t **stack_p, const int n)
 {
 	stack_t *new = malloc(sizeof(stack_t));
 	stack_t *current = *stack_p;

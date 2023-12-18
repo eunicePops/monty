@@ -2,7 +2,7 @@
 
 /**
 * rotr - rotates the last node of a stack_t stack
-* @stack_P: stack head
+* @stack_p: stack head
 * @number: line count
 *
 * Return: void

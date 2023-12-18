@@ -7,7 +7,7 @@
 /**
  * m_add -  adds the first two nodes of the stack
  * @stack_p: stack given by main
- * @number: line counter
+ * @number: number of lines
  *
  * Return: void
  */

@@ -11,7 +11,7 @@
  *
  * Return: void
  */
-void m_mul(stack_t **stack_p, unsigned in number)
+void m_mul(stack_t **stack_p, unsigned int number)
 {
 	int result;
 

@@ -23,6 +23,6 @@ void rotl(stack_t **stack_p, unsigned int number)
 	right->next = left; /* a circle infinite linked list loop */
 	left->prev = right;
 	*stack_p = left->next; /* so we cut the link between the 0 and 1 element */
-	(*stack_P)->prev->next = NULL;
+	(*stack_p)->prev->next = NULL;
 	(*stack_p)->prev = NULL;
 }

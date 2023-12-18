@@ -22,7 +22,7 @@ int main(int argc, char **argv)
 	char *buffer = NULL;
 	char *str = NULL;
 	stack_t *stack_p = NULL;
-	unsigned int line_cnt = 1;
+	unsigned int number = 1;
 
 	global.data_struct = 1;  /* struct defined in monty.h L58*/
 	if (argc != 2)

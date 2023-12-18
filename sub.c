@@ -22,6 +22,6 @@ void m_sub(stack_t **stack_p, unsigned int number)
 	}
 
 	result = ((*stack_p)->next->n) - ((*stack_p)->n);
-	pop(stack_p, number);/*For top node*/
+	m_pop(stack_p, number);/*For top node*/
 	(*stack_p)->n = result;
 }

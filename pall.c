@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- * pall - prints the stack
+ * m_pall - prints the stack
  * @stack_p: stack given by main in start.c
- * @number: number of lines
+ * number: number of lines
  *
  * Return: void
  */

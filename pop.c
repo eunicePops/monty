@@ -11,7 +11,7 @@
 *
 * Return: void
 */
-void pop(stack_t **stack_p, unsigned int number)
+void m_pop(stack_t **stack_p, unsigned int number)
 {
 	stack_t *tmp = NULL;
 

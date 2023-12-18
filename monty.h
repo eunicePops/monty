@@ -38,7 +38,7 @@ typedef struct instruction_s
 
 #define INSTRUCTIONS              \
 	{                           \
-		{"push", push},       \
+		{"push", m_push},       \
 		    {"pall", m_pall},   \
 		    {"pint", m_pint},   \
 		    {"pop", m_pop},     \
@@ -86,12 +86,12 @@ void m_push(stack_t **stack_p, unsigned int number);
 void m_swap(stack_t **stack_p, unsigned int number);
 void m_pop(stack_t **stack_p, unsigned int number);
 void m_nop(stack_t **stack_p, unsigned int number);
-void m_pall(stack_t **stack_p unsigned int number);
+void m_pall(stack_t **stack_p, unsigned int number);
 void m_pint(stack_t **stack_p, unsigned int number);
 
 
-stack_t *add_node(stack_t **stack,_p, int n);
-stack_t *addqueue_node(stack_t **stack_p, int n);
+stack_t *add_node(stack_t **stack_p, const int n);
+stack_t *addqueue_node(stack_t **stack_p, const int n);
 
 size_t print_stack(const stack_t *stack_p);
 
